@@ -14,8 +14,10 @@
 }
 .button{
     justify-self: center;
-    background-color: gray;
-    padding: 20px;
+    color: white;
+    background-color: black;
+    padding: 15px 15px;
+    border-radius: 10px;
 }
 nav{
     display: grid;
