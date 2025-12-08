@@ -142,3 +142,9 @@ a {
         flex-direction: column;
     }
 }
+
+.logo {
+  width: 60px; 
+  height: auto;
+  display: block;
+}
