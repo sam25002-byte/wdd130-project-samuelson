@@ -68,6 +68,9 @@ a {
     height: 100px;
     background: #ddd;
     border-radius: 5px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card-grid {
@@ -86,6 +89,9 @@ a {
 .card-img {
     height: 120px;
     background: #ddd;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .card-body {
@@ -130,12 +136,10 @@ a {
 }
 
 @media (max-width: 900px) {
-    .card-grid {
-        flex-direction: column;
-    }
-
-    .image-row {
-        flex-direction: column;
+    .img-placeholder,
+    .card-img {
+        width: 100%;
+        height: auto;
     }
 }
 
