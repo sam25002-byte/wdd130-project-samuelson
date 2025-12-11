@@ -1,6 +1,7 @@
 .body{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
     text-align: center;
 }
 .head{
@@ -18,6 +19,57 @@
     background-color: black;
     padding: 15px 15px;
     border-radius: 10px;
+}
+.cardimg1{
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    align-self: center;
+    margin: 0 auto;
+}
+.cardimg2{
+    width: 200px;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    align-self: center;
+    margin: 0 auto;
+}
+.logo{
+    width: 200px;
+}
+.cardimg3{
+    width: 200px;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    align-self: center;
+    margin: 0 auto;
+}
+.cardimg4{
+    width: 200px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    align-self: center;
+    margin: 0 auto;
+}
+.cardimg5{
+    width: 200px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+    align-self: center;
+    margin: 0 auto;
+}
+.cardimg6{
+    width: 200px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+    align-self: center;
+    margin: 0 auto;
+}
+.row1{
+    grid-template-columns: 2/3;
+}
+.bodyitem1{
+    align-items: center;
 }
 nav{
     display: grid;
